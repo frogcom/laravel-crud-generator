@@ -11,7 +11,8 @@
     "keywords": ["laravel", "crud", "crud generator", "laravel crud generator", "laravel package", "bootstrap css", "tailwind css", "alpine js"],
     "require": {
         "php": "^8.2",
-        "laravel/framework": "^11.0"
+        "laravel/framework": "^11.0",
+        "spatie/laravel-html": "^3.11"
     },
     "autoload": {
         "psr-4": {

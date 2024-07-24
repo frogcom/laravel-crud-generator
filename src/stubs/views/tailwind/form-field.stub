@@ -3,3 +3,4 @@
         <x-text-input id="{{column_snake}}" name="{{column}}" type="text" class="mt-1 block w-full" :value="old('{{column}}', ${{modelNameLowerCase}}?->{{column}})" autocomplete="{{column}}" placeholder="{{title}}"/>
         <x-input-error class="mt-2" :messages="$errors->get('{{column}}')"/>
     </div>
+    {{ html()->text('{{column}}')->value({{column}}) }}

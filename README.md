@@ -29,6 +29,11 @@ composer require ibex/crud-generator --dev
 ```
 php artisan vendor:publish --tag=crud
 ```
+3- Add Spatie provider To conig/app.php
+```
+Spatie\Html\HtmlServiceProvider::class,
+
+```
 
 
 **For older Laravel(<10.x) versions please use [v1.x](https://github.com/awais-vteams/laravel-crud-generator/tree/v1.6)**
