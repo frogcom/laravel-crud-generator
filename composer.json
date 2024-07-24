@@ -15,13 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "frogcom\\CrudGenerator\\": "src/"
+            "frogcom\\crud-generator\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "frogcom\\CrudGenerator\\CrudServiceProvider"
+                "frogcom\\crud-generator\\CrudServiceProvider"
             ]
         }
     },
