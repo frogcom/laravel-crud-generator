@@ -1,9 +1,30 @@
 {
-    "name": "frogy/laravel-crud-generator",
+    "name": "frogcom/crud-generator",
+    "description": "Laravel CRUD Generator",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Cas Meijer",
+            "email": "robbertcasmeijer@gmail.com"
+        }
+    ],
+    "keywords": ["laravel", "crud", "crud generator", "laravel crud generator", "laravel package", "bootstrap css", "tailwind css", "alpine js"],
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.0"
+    },
     "autoload": {
         "psr-4": {
-            "Frogy\\LaravelCrudGenerator\\": "src/"
+            "Ibex\\CrudGenerator\\": "src/"
         }
     },
-    "require": {}
+    "extra": {
+        "laravel": {
+            "providers": [
+                "frogcom\\CrudGenerator\\CrudServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
