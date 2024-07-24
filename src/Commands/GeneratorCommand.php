@@ -1,9 +1,9 @@
 <?php
 
-namespace Ibex\CrudGenerator\Commands;
+namespace Frogcom\CrudGenerator\Commands;
 
 use Exception;
-use Ibex\CrudGenerator\ModelGenerator;
+use Frogcom\CrudGenerator\ModelGenerator;
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Console\PromptsForMissingInput;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;

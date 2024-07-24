@@ -1,6 +1,6 @@
 <?php
 
-namespace Ibex\CrudGenerator\Commands;
+namespace Frogcom\CrudGenerator\Commands;
 
 use Exception;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;

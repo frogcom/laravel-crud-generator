@@ -1,8 +1,8 @@
 <?php
 
-namespace Ibex\CrudGenerator;
+namespace Frogcom\CrudGenerator;
 
-use Ibex\CrudGenerator\Commands\CrudGenerator;
+use Frogcom\CrudGenerator\Commands\CrudGenerator;
 use Illuminate\Support\ServiceProvider;
 
 /**
