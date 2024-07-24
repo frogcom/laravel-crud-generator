@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "frogcom\\crud-generator\\": "src/"
+            "frogcom\\crud-generator\\": ""
         }
     },
     "extra": {
