@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ibex\\CrudGenerator\\": "src/"
+            "frogcom\\CrudGenerator\\": "src/"
         }
     },
     "extra": {
