@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "frogcom\\crud-generator\\CrudServiceProvider"
+                "frogcom\\crudGenerator\\CrudServiceProvider"
             ]
         }
     },
