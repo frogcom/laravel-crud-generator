@@ -14,12 +14,14 @@
         "laravel/framework": "^11.0"
     },
     "autoload": {
-        "classmap": [ "src/" ]
+        "psr-4": {
+            "frogcom\\CrudGenerator\\": "src/"
+        }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "frogcom\\crudGenerator\\CrudServiceProvider"
+                "Ibex\\CrudGenerator\\CrudServiceProvider"
             ]
         }
     },
